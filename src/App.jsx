@@ -1,11 +1,11 @@
-
+import RouteConfig from './router';
 
 function App() {
-  return (
-    <div className="App">
-      初始化
-    </div>
-  );
+    return (
+        <div className="App">
+            <RouteConfig />
+        </div>
+    );
 }
 
 export default App;
